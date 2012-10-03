@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="title" content="BuscaMiTarea.com" />
+<meta name="description" content="Deja que busque la tarea por ti!." />
+<link rel="image_src" href="../images/fb.png" />
+<link rel="icon" type="image/x-icon" href="../images/favicon.png" />
+
+<title>BuscaMiTarea.com | Busqueda en formato imprimible.</title>
+
+
+
+<link rel="stylesheet" href="../css/blueprint/screen.css" type="text/css" media="screen, projection"> 
+<link rel="stylesheet" href="../css/blueprint/print.css" type="text/css" media="print"> 
+<!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]--> 
+
+<link rel="stylesheet" href="../css/style_fb.css" type="text/css" media="screen, projection"> 
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/buscamitarea.js"></script>
+
+
+</head>
+
+<body>
+
+<div id="publicidad_top" class="container">
+</div>
+
+<div id="buscador">
+	<div id="logo">
+    	<a href="../index.html"><img src="../images/logo.png" /></a>
+    </div>
+    <div id="tipo_busqueda">
+    	<div id="tipos"> 
+          <a onclick="select_type(308,'wikipedia'); return false;" href="/"><img src="../images/wikipedia.png"/></a>
+          <a onclick="select_type(248,'doc'); return false;" href="#"><img src="../images/doc.png"/></a>
+          <a onclick="select_type(188,'ppt'); return false;" href="#"><img src="../images/ppt.png"/></a>
+          <a onclick="select_type(128,'pdf'); return false;" href="#"><img src="../images/pdf.png"/></a>
+          <a onclick="select_type(68,'xls'); return false;" href="#"><img src="../images/xls.png"/></a>
+          <a onclick="select_type(8,'odt'); return false;" href="#"><img src="../images/odt.png"/></a>
+        </div>
+<div id="flecha">
+        	<img src="../images/flecha.png"/>
+        </div>
+    </div>
+    <div id="busqueda">
+    	<input name="id_busqueda" type="text" id="id_busqueda" />
+    	<a onclick="googleSearch();return false;" href="#"><img src="../images/buscar_button.png" alt="buscar" /></a> 
+    </div>
+</div>
+
+<div id="resultados" class="prepend-top">
+	<div id="title_resultados" class="prepend-top" align="right">
+    	
+    </div>
+    
+  <div id="resultados_content">
+    
+    	
+        
+  </div>
+    
+</div>
+<div align="center" id="footer" class="small">
+<a href="http://oaxaca-digital.com" target="_blank"><img src="../images/minilogo.png" width="21" height="16" alt="Oaxaca Digital" /></a><br />Powered by Oaxaca Digital | 2011
+</div>
+
+</body>
+</html>
